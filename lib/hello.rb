@@ -8,7 +8,7 @@ def hello_t(names_array)
         yield names_array[i]
         output << names_array[i]
       end
-      i += 1
+      i+=1
     end
     return output
   else
