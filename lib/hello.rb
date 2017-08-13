@@ -5,6 +5,8 @@ def hello_t(array)
     yield array[i] # yield each value stored in the array
     i = i + 1 # increment i on each iteration
   end
+
+  array # return the original array
 end
 
 # call your method here!
